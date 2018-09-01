@@ -1,5 +1,5 @@
 class PuntosController < ApplicationController
-  
+  #Prueba
   def get_all
     @puntos = Punto.all
     render json: @puntos, status: :ok
